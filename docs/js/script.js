@@ -16,8 +16,8 @@ $(function(){ // create event
             const img_2 = document.querySelector(".img2"); // get change image parameter
             document.querySelector('.new_button').style.zIndex = 1000; // change index
             setTimeout(function(){ // delay 
-                img_1.src ="../img/n1.jpeg"; // change image
-                img_2.src ="../img/n4.jpeg"; // change image
+                img_1.src ="img/n1.jpeg"; // change image
+                img_2.src ="img/n4.jpeg"; // change image
             },500);
 
         }else if($('.new_button').height() >= 600){ // decrease event
@@ -41,8 +41,8 @@ $(function(){ // create event
             const img_2 = document.querySelector(".img2"); // get change image parameter
             document.querySelector('.best_button').style.zIndex = 1000; // change index
             setTimeout(function(){ // delay 
-                img_1.src ="../img/b1.png"; // change image
-                img_2.src ="../img/b4.jpeg"; // change image
+                img_1.src ="img/b1.png"; // change image
+                img_2.src ="img/b4.jpeg"; // change image
             },500);
 
         }else if($('.best_button').height() >= 600){ // decrease event
@@ -77,7 +77,7 @@ function clickBgames(e){ // Click event
                 title.innerText = bgames_list[0]; // change title
             }, 250);
             const img_1 = document.querySelector(".img1"); // get change image parameter
-            img_1.src ="../img/b1.png"; // change image 
+            img_1.src ="img/b1.png"; // change image 
         }else if(title.innerText !== ""){ // if title's content isn't " "
             tag.style.height = '0px'; // change tag bar height 
             tag.style.transition = '0.25s'; // change transition
@@ -94,7 +94,7 @@ function clickBgames(e){ // Click event
                 title.innerText = bgames_list[1];
             }, 250);
             const img_1 = document.querySelector(".img1");
-            img_1.src ="../img/b2.jpg";
+            img_1.src ="img/b2.jpg";
         }else if(title.innerText !== ""){
             tag.style.height = '0px';
             tag.style.transition = '0.25s';
@@ -111,7 +111,7 @@ function clickBgames(e){ // Click event
                 title.innerText = bgames_list[2];
             }, 250);
             const img_1 = document.querySelector(".img1");
-            img_1.src ="../img/b3.jpeg";
+            img_1.src ="img/b3.jpeg";
         }else if(title.innerText !== ""){
             tag.style.height = '0px';
             tag.style.transition = '0.25s';
@@ -128,7 +128,7 @@ function clickBgames(e){ // Click event
                 title2.innerText = bgames_list[3];
             }, 250);
             const img_2 = document.querySelector(".img2");
-            img_2.src ="../img/b4.jpeg";
+            img_2.src ="img/b4.jpeg";
         }else if(title2.innerText !== ""){
             tag2.style.height = '0px';
             tag2.style.transition = '0.25s';
@@ -145,7 +145,7 @@ function clickBgames(e){ // Click event
                 title2.innerText = bgames_list[4];
             }, 250);
             const img_2 = document.querySelector(".img2");
-            img_2.src ="../img/b5.jpeg";
+            img_2.src ="img/b5.jpeg";
         }else if(title2.innerText !== ""){
             tag2.style.height = '0px';
             tag2.style.transition = '0.25s';
@@ -162,7 +162,7 @@ function clickBgames(e){ // Click event
                 title2.innerText = bgames_list[5];
             }, 250);
             const img_2 = document.querySelector(".img2");
-            img_2.src ="../img/b6.jpeg";
+            img_2.src ="img/b6.jpeg";
         }else if(title2.innerText !== ""){
             tag2.style.height = '0px';
             tag2.style.transition = '0.25s';
@@ -180,7 +180,7 @@ function clickBgames(e){ // Click event
                 title.innerText = ngames_list[0];
             }, 250);
             const img_1 = document.querySelector(".img1");
-            img_1.src ="../img/n1.jpeg";
+            img_1.src ="img/n1.jpeg";
         }else if(title.innerText !== ""){
             tag.style.height = '0px';
             tag.style.transition = '0.25s';
@@ -197,7 +197,7 @@ function clickBgames(e){ // Click event
                 title.innerText = ngames_list[1];
             }, 250);
             const img_1 = document.querySelector(".img1");
-            img_1.src ="../img/n2.jpeg";
+            img_1.src ="img/n2.jpeg";
         }else if(title.innerText !== ""){
             tag.style.height = '0px';
             tag.style.transition = '0.25s';
@@ -231,7 +231,7 @@ function clickBgames(e){ // Click event
                 title2.innerText = ngames_list[3];
             }, 250);
             const img_2 = document.querySelector(".img2");
-            img_2.src ="../img/n4.jpeg";
+            img_2.src ="img/n4.jpeg";
         }else if(title2.innerText !== ""){
             tag2.style.height = '0px';
             tag2.style.transition = '0.25s';
@@ -248,7 +248,7 @@ function clickBgames(e){ // Click event
                 title2.innerText = ngames_list[4];
             }, 250);
             const img_2 = document.querySelector(".img2");
-            img_2.src ="../img/n5.jpeg";
+            img_2.src ="img/n5.jpeg";
         }else if(title2.innerText !== ""){
             tag2.style.height = '0px';
             tag2.style.transition = '0.25s';
@@ -265,7 +265,7 @@ function clickBgames(e){ // Click event
                 title2.innerText = ngames_list[5];
             }, 250);
             const img_2 = document.querySelector(".img2");
-            img_2.src ="../img/n6.jpeg";
+            img_2.src ="img/n6.jpeg";
         }else if(title2.innerText !== ""){
             tag2.style.height = '0px';
             tag2.style.transition = '0.25s';
