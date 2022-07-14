@@ -214,7 +214,7 @@ function clickBgames(e){ // Click event
                 title.innerText = ngames_list[2];
             }, 250);
             const img_1 = document.querySelector(".img1");
-            img_1.src ="../img/n3.jpeg";
+            img_1.src ="img/n3.jpeg";
         }else if(title.innerText !== ""){
             tag.style.height = '0px';
             tag.style.transition = '0.25s';
