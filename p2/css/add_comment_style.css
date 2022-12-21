@@ -1,0 +1,70 @@
+.comment_input_area{
+    position: absolute;
+    width : 950px;
+    height: 200px;
+    top: 58.6%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+.comment_input{
+    position: absolute;
+    width : 950px;
+    height: 200px;
+    left: 50%;
+    top : 50%;
+    transform: translate(-50%,-50%);
+}
+.login_comment{
+    position: absolute;
+    left: 50%;
+    top : 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color:white;
+}
+.user_id{
+    position: absolute;
+    color : white;
+    text-align: center;
+    width : 130px;
+    left : 0%;
+    top : 11%;
+    font-size: 20px;
+    transform: translate(-10%,0);
+}
+.comment_input_btn{
+    position: absolute;
+    left: 0%;
+    top : 35%;
+    transform: translate(-10%,0);
+    background-color: rgb(31,47,72);
+    color:white;
+    border-radius: 10px;
+    border : none;
+    text-align: center;
+    font-size: 15px;
+    width : 130px;
+    height: 45px;
+}
+.comment_input_btn:hover{
+    background-color: rgba(31,47,72, 0.8);
+    color:rgba(255,255,255, 0.8);   
+}
+.input_comment{
+    position: absolute;
+    left: 58%;
+    top : 50%;
+    transform: translate(-50%,-50%);
+    width : 800px;
+    height : 150px;
+    background-color: rgb(31,47,72);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size : 20px;
+    overflow : auto;
+}
+.input_comment::-webkit-scrollbar{
+    display: none;
+}

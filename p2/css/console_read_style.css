@@ -1,0 +1,374 @@
+/*-------------------------------------------------------------------------*/
+/* header */
+.header{ /* background header */
+    position:relative;
+    background-color: rgb(31,47,72);
+    width:  100%;
+    height: 140px;
+}
+.sub_header{
+    position :absolute; /* real header */
+    background-color: rgb(31,47,72);
+    width:  1200px;
+    height: 140px;
+    left:50%;
+    transform :translate(-50%);
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+/* header menu */
+/* LOGO */
+.logo{
+    width: 300px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size : 40px;
+    float:left;
+    color: white;
+}
+/* not having dropdown menu */
+.header_menu{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+    float:left;
+    color: rgb(180, 180, 180);
+    cursor : pointer;
+}
+.header_menu:hover{
+    color:white;
+}
+/* Type menu dropdown */
+.header_type_menu{ /* real menu */
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+    float:left;
+    color: rgb(180, 180, 180);
+    cursor : pointer;
+}
+.type_menu{ /* list background */
+    display : none;
+    position: absolute;
+    font-size: 15px;
+    background-color: rgb(31,47,72);
+    box-shadow: 1px 1px 3px 1px black;
+}
+.type_menu_list{ /* lists */
+    text-align: center;
+    display : block;
+    color:rgb(180, 180, 180);
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    cursor : pointer;
+}
+.header_type_menu:hover{ /* on hover */
+    color:white;
+}
+.header_type_menu:hover .type_menu{ /* on hover */
+    display: block;
+    color:white;
+}
+.type_menu_list:hover{ /* on hover */
+    color:white;
+}
+/* community menu dropdown */
+.header_community_menu{ /* real menu */
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+    float:left;
+    color: rgb(180, 180, 180);
+    cursor : pointer;
+}
+.community_menu{ /* list background */
+    display : none;
+    position: absolute;
+    font-size: 15px;
+    background-color: rgb(31,47,72);
+    box-shadow: 1px 1px 3px 1px black;
+} 
+.community_menu_list{ /* lists */
+    text-align: center;
+    display : block;
+    color:rgb(180, 180, 180);
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    cursor : pointer;
+}
+.header_community_menu:hover{ /* on hover */
+    color:white;
+}
+.header_community_menu:hover .community_menu{ /* on hover */
+    display: block;
+    color:white;
+}
+.community_menu_list:hover{ /* on hover */
+    color:white;
+}
+/* sign up menu */
+.sign_up_menu{
+    float: right;
+    padding-top: 20px;
+    padding-right : 20px;
+    color:rgb(180, 180, 180);
+    cursor: pointer;
+}
+.sign_up_menu:hover{
+    color:white;
+}
+/* log in menu */
+.log_in_menu{
+    float: right;
+    padding-top: 20px;
+    padding-right : 20px;
+    color:rgb(180, 180, 180);
+    cursor: pointer;
+}
+.log_in_menu:hover{
+    color:white;
+}
+/* log out menu */
+.log_out_menu{
+    float: right;
+    padding-top: 20px;
+    padding-right : 20px;
+    color:rgb(180, 180, 180);
+    cursor: pointer;
+}
+.log_out_menu:hover{
+    color:white;
+}
+/*-------------------------------------------------------------------------*/
+/* Main */
+.main{ /* background main */
+    position:relative;
+    background: rgb(39,73,109);
+    background: 
+    linear-gradient(0deg, rgba(39,73,109,1) 0%,
+    rgba(10,27,70,1) 50%,
+    rgba(39,73,109,1) 100%);
+    width: 100%;
+    height: 1600px;
+}
+.sub_main{ /* real main */
+    position:absolute;
+    background: rgb(39,73,109);
+    background: 
+    linear-gradient(0deg, rgba(39,73,109,1) 0%,
+    rgba(10,27,70,1) 50%,
+    rgba(39,73,109,1) 100%);
+    width: 1200px;
+    height: 100%;
+    left:50%;
+    transform:translate(-50%);
+}
+/*-------------------------------------------------------------------------*/
+/* main menu */
+.POST{ /* LOGO */
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top:3%;
+    left:50%;
+    transform: translate(-50%,0);
+
+}
+.back_previous{ /* Back To Previous Post */
+    position: absolute;
+    top : 0.3%;
+    left : 45%;
+    transform: translate(-50%,0);
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+} 
+.back_list{ /* Back to List*/
+    position: absolute;
+    top : 0.3%;
+    left : 50.5%;
+    transform: translate(-50%,0);
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+.back_next{ /* Back to Next Post */
+    position: absolute;
+    top : 0.3%;
+    left : 55%;
+    transform: translate(-50%,0);
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+.back_list:hover{
+    text-decoration: none;
+    color: white;
+}
+.back_previous:hover{
+    color: white;
+    cursor: pointer;
+}
+.back_next:hover{
+    color: white;
+    cursor: pointer;
+}
+.edit_post{
+    position: absolute;
+    top : 1%;
+    left : 90.5%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.delete_post{
+    position: absolute;
+    top : 1%;
+    left : 87%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+/*-------------------------------------------------------------------------*/
+.read_area{ /* Read Content Area*/
+    position: absolute;
+    width : 1000px;
+    height: 1240px;
+    left: 50%;
+    top: 7%;
+    transform: translate(-50%);
+}
+.content_title{ /* Title */
+    position: absolute;
+    left : 50%;
+    top : 2%;
+    transform: translate(-50%,0);
+    color: white;
+    font-size: 30px;
+}
+.content_user_date{ /* Date */
+    position: absolute;
+    left : 10%;
+    top : 6%;
+    transform: translate(-50%,0);
+    color: white;
+    font-size: 15px;
+}
+.content_view{ /* View */
+    position: absolute;
+    left : 90%;
+    top : 6%;
+    transform: translate(-50%,0);
+    color: white;
+    font-size: 15px; 
+}
+.content_line{ /* Line */
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(180, 180, 180, 1);
+}
+.content_main{ /* Main area */
+    word-break:break-all;
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    overflow: auto;
+    overflow-x: hidden;
+    width : 950px;
+    height : 560px;
+    top : 10.4%;
+    left : 50%;
+    border : none;
+    transform: translate(-50%,0);
+    font-size: 18px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content_main::-webkit-scrollbar{ /* Scroll */
+    display: none;
+}
+/*-------------------------------------------------------------------------*/
+.comment_input_line{ /* Line */
+    position: absolute;
+    top: 708px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(180, 180, 180, 1);
+}
+/*-------------------------------------------------------------------------*/
+.comment_line{ /* Line */
+    position: absolute;
+    top: 933px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(180, 180, 180, 1);
+}
+.comment_area{ /* Console Content Comment Area */
+    position: absolute;
+    width : 950px;
+    height: 300px;
+    top: 75.2%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow : auto;
+    word-break:break-all;
+}
+.comment_area::-webkit-scrollbar{ /* Scroll */
+    display: none;
+}
+.comment_user_id{ /* User ID */
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+.comment_user_main{ /* Comment */
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.comment_user_date{ /* Date */
+    color: white;
+    font-size: 12px;
+    text-align: left;
+}
+.comment_delete{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(180, 10,10);
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------*/
+/* footer */
+.footer_line{
+    position: absolute;
+    margin-top: 40px;
+    width: 100%;
+    height: 1px;
+    background: rgb(39,73,109);
+    background: 
+    linear-gradient(0deg, rgba(39,73,109,1) 0%,
+    rgba(10,27,70,1) 50%,
+    rgba(39,73,109,1) 100%);
+    top : 1400px;
+}
+.footer{
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    font-style: italic;
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+    top: 1450px;
+}

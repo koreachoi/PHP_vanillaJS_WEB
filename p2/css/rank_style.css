@@ -1,0 +1,204 @@
+/*-------------------------------------------------------------------------*/
+/* header */
+.header{ /* background header */
+    position:relative;
+    background-color: rgb(31,47,72);
+    width:  100%;
+    height: 140px;
+}
+.sub_header{
+    position :absolute; /* real header */
+    background-color: rgb(31,47,72);
+    width:  1200px;
+    height: 140px;
+    left:50%;
+    transform :translate(-50%);
+    z-index: 1;
+}
+a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+/* header menu */
+/* LOGO */
+.logo{
+    width: 300px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size : 40px;
+    float:left;
+    color: white;
+}
+/* not having dropdown menu */
+.header_menu{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+    float:left;
+    color: rgb(180, 180, 180);
+    cursor : pointer;
+}
+.header_menu:hover{
+    color:white;
+}
+/* Type menu dropdown */
+.header_type_menu{ /* real menu */
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+    float:left;
+    color: rgb(180, 180, 180);
+    cursor : pointer;
+}
+.type_menu{ /* list background */
+    display : none;
+    position: absolute;
+    font-size: 15px;
+    background-color: rgb(31,47,72);
+    box-shadow: 1px 1px 3px 1px black;
+}
+.type_menu_list{ /* lists */
+    text-align: center;
+    display : block;
+    color:rgb(180, 180, 180);
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    cursor : pointer;
+}
+.header_type_menu:hover{ /* on hover */
+    color:white;
+}
+.header_type_menu:hover .type_menu{ /* on hover */
+    display: block;
+    color:white;
+}
+.type_menu_list:hover{ /* on hover */
+    color:white;
+}
+/* community menu dropdown */
+.header_community_menu{ /* real menu */
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+    float:left;
+    color: rgb(180, 180, 180);
+    cursor : pointer;
+}
+.community_menu{ /* list background */
+    display : none;
+    position: absolute;
+    font-size: 15px;
+    background-color: rgb(31,47,72);
+    box-shadow: 1px 1px 3px 1px black;
+} 
+.community_menu_list{ /* lists */
+    text-align: center;
+    display : block;
+    color:rgb(180, 180, 180);
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    cursor : pointer;
+}
+.header_community_menu:hover{ /* on hover */
+    color:white;
+}
+.header_community_menu:hover .community_menu{ /* on hover */
+    display: block;
+    color:white;
+}
+.community_menu_list:hover{ /* on hover */
+    color:white;
+}
+/* sign up menu */
+.sign_up_menu{
+    float: right;
+    padding-top: 20px;
+    padding-right : 20px;
+    color:rgb(180, 180, 180);
+    cursor: pointer;
+}
+.sign_up_menu:hover{
+    color:white;
+}
+/* log in menu */
+.log_in_menu{
+    float: right;
+    padding-top: 20px;
+    padding-right : 20px;
+    color:rgb(180, 180, 180);
+    cursor: pointer;
+}
+.log_in_menu:hover{
+    color:white;
+}
+/* log out menu */
+.log_out_menu{
+    float: right;
+    padding-top: 20px;
+    padding-right : 20px;
+    color:rgb(180, 180, 180);
+    cursor: pointer;
+}
+.log_out_menu:hover{
+    color:white;
+}
+/*-------------------------------------------------------------------------*/
+/* Main */
+.main{ /* background main */
+    position:relative;
+    background: rgb(39,73,109);
+    background: 
+    linear-gradient(0deg, rgba(39,73,109,1) 0%,
+    rgba(10,27,70,1) 50%,
+    rgba(39,73,109,1) 100%);
+    width: 100%;
+    height: 1000px;
+}
+.sub_main{ /* real main */
+    position:absolute;
+    background: rgb(39,73,109);
+    background: 
+    linear-gradient(0deg, rgba(39,73,109,1) 0%,
+    rgba(10,27,70,1) 50%,
+    rgba(39,73,109,1) 100%);
+    width: 1200px;
+    height: 100%;
+    left:50%;
+    transform:translate(-50%);
+}
+/*-------------------------------------------------------------------------*/
+/* main menu */
+
+/*-------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------*/
+/* footer */
+.footer_line{
+    position: absolute;
+    margin-top: 40px;
+    width: 100%;
+    height: 1px;
+    background: rgb(39,73,109);
+    background: 
+    linear-gradient(0deg, rgba(39,73,109,1) 0%,
+    rgba(10,27,70,1) 50%,
+    rgba(39,73,109,1) 100%);
+    top : 800px;
+}
+.footer{
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    font-style: italic;
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+    top: 850px;
+}
